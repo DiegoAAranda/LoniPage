@@ -241,6 +241,11 @@ footer {
     #iAm{
         font-size: 14px;
     }
+    
+    #iAm img {
+    width: 100px;
+    height: 100px;
+    }    
 
     #iAm h1 {
         font-size: 40px;
