@@ -1,0 +1,164 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: flex-start;
+    font-family: "Roboto";
+    color: #ffffff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    background: #1f1c23;
+    align-items: center;
+}
+
+header h2 {
+    font-family: "New Rocker";
+    font-size: 24px;
+} 
+
+header button{
+    padding: 10px;
+    background: #8395bd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header button:hover{
+    opacity: 40%;
+    background: #7a7f89;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    flex-grow: 1;
+    background: linear-gradient(#0c1220 85%, #aa2646 100%);
+    align-items: stretch;
+}
+
+#iAm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 10%;
+    font-size: 20px;
+    border-right: solid #ffffff 3px;
+    border-left: solid #ffffff 3px;
+}
+
+#iAm img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%
+}
+
+#iAm div{
+    padding: 20px;
+}
+
+#iAm div:nth-child(2){
+    align-content:center;
+}
+
+#iAm h1{
+    font-family: "New Rocker";
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.title {
+    text-align: center;
+    font-family: "New Rocker";
+    font-size: 50px;
+    margin: 20px;
+    flex: 1 0 100%;
+}
+
+#news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#news .newsVideo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #06070c;
+}
+
+#news .newsVideo p{
+    margin: 5px 0;
+    font-size: 20px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#news .newsVideo iframe {
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background: #38353d;
+}
+
+#social .socialMedia{
+    margin: 20px;
+    flex: 1 0 30%;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#social h2{
+    flex: 1 0 100%;
+}
+
+#social .socialMedia p{
+    padding: 20px 0;
+}
+
+#social .socialMedia img{
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #aa2646;
+    padding: 20px;
+}
+
+.footInfo h2 {
+    font-family: "New Rocker";
+    font-size: 20px;
+} 
