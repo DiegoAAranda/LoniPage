@@ -152,16 +152,42 @@ main {
 
 footer {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background: #aa2646;
     padding: 20px;
 }
 
-.footInfo h2 {
+footer .title {
+    margin: 0px;
+    flex-grow: 1;
+    flex: 1 0 0;
+}
+
+.footInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footInfo h2{
     font-family: "New Rocker";
+    font-size: 40px;
+}
+
+.footInfo p{
+    font-family: "Roboto";
     font-size: 20px;
-} 
+}
+
+.footInfo img {
+    width: 50vw;
+    height: 25vw;
+    margin: 10px 0;
+}
 
 @media (max-width: 768px){
     header h2 {
@@ -241,11 +267,11 @@ footer {
     #iAm{
         font-size: 14px;
     }
-    
+
     #iAm img {
     width: 100px;
     height: 100px;
-    }    
+    }
 
     #iAm h1 {
         font-size: 40px;
